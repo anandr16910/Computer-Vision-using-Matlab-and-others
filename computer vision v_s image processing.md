@@ -1,0 +1,76 @@
+<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
+
+# computer vision v/s image processing
+
+Computer vision focuses on understanding and interpreting visual content to make decisions, while image processing focuses on transforming or enhancing pixel data without semantic understanding.[^2][^3][^4]
+
+### Core idea
+
+- Image processing modifies images (e.g., denoise, sharpen, resize) by operating on pixel intensities; output is another image or low-level features, not “meaning.”[^4][^5][^8]
+- Computer vision extracts semantic information (e.g., detect objects, classify scenes) and supports tasks like perception, tracking, and decision-making.[^3][^2][^4]
+
+
+### Typical tasks
+
+- Image processing: noise reduction, contrast/brightness adjustment, histogram equalization, filtering, edge detection, thresholding, compression, geometric transforms.[^5][^3][^4]
+- Computer vision: image classification, object detection (e.g., YOLO), instance/semantic segmentation, pose estimation, tracking, scene understanding, OCR, facial recognition.[^2][^3][^4]
+
+
+### Methods and tooling
+
+- Image processing: deterministic algorithms on pixels and neighborhoods (Sobel/Canny, Gaussian blur, morphology), often with OpenCV or MATLAB Image Processing Toolbox.[^3][^4][^5]
+- Computer vision: data-driven models (CNNs, transformers), probabilistic inference, learned features; frameworks like PyTorch/TensorFlow and model families such as ResNet and YOLO.[^5][^2][^3]
+
+
+### Relationship and workflow
+
+- Image processing often precedes computer vision to improve signal quality and robustness (e.g., denoise, normalize, enhance contrast) before inference.[^4][^2][^5]
+- Many pipelines interleave both: preprocess → infer → optionally postprocess masks/boxes for visualization or deployment constraints.[^3][^4][^5]
+
+
+### When to use which
+
+- Choose image processing when the goal is better visual quality, compression, or deterministic feature extraction without labels or learning.[^8][^4][^5]
+- Choose computer vision when the goal requires semantic understanding, recognition, measurement, or decision support from images or video.[^2][^4][^3]
+
+
+### Examples relevant to engineering
+
+- Image processing: speckle/noise reduction in medical/remote-sensing images, illumination correction for inspection, edge-based metrology, FFT-based filtering.[^4][^5][^3]
+- Computer vision: real-time object detection for ADAS, defect detection via learned classifiers/segmentation, OCR for automation, people/vehicle tracking in surveillance.[^2][^3][^4]
+
+
+### Quick comparison table
+
+| Aspect | Image processing | Computer vision |
+| :-- | :-- | :-- |
+| Primary goal | Enhance/transform pixels [^4] | Understand/interpret content [^4] |
+| Outputs | Processed image or low-level features [^5] | Labels, boxes, masks, tracks, decisions [^2] |
+| Techniques | Filters, morphology, thresholding, edges [^5] | ML/DL models, CNNs/transformers, training [^3] |
+| Determinism | Mostly deterministic, rule-based [^5] | Data-driven, probabilistic [^5] |
+| Typical tools | OpenCV, MATLAB IPT [^5] | PyTorch, TensorFlow, YOLO/ResNet [^5][^2] |
+| Example use | Noise reduction before analysis [^4] | Detect pedestrians/signs in driving [^2] |
+
+### Mental model
+
+- Think of image processing as the signal chain for visual data quality, and computer vision as the perception layer that turns pixels into actionable semantics. They complement each other in modern pipelines.[^5][^4][^2]
+<span style="display:none">[^1][^6][^7]</span>
+
+<div align="center">⁂</div>
+
+[^1]: https://www.geeksforgeeks.org/machine-learning/difference-between-image-processing-and-computer-vision/
+
+[^2]: https://www.ultralytics.com/blog/computer-vision-vs-image-processing-the-key-differences
+
+[^3]: https://akridata.ai/blog/computer-vision-vs-image-processing/
+
+[^4]: https://opencv.org/blog/computer-vision-and-image-processing/
+
+[^5]: https://milvus.io/ai-quick-reference/what-is-ai-computer-vision-vs-image-processing
+
+[^6]: https://www.tutorialspoint.com/difference-between-computer-vision-and-image-processing
+
+[^7]: https://www.youtube.com/watch?v=pcxhj5KFI6M
+
+[^8]: https://www.baeldung.com/cs/computer-vision-image-processing-differences
+
