@@ -98,9 +98,7 @@ Short answer: Computer Vision Toolbox works in both MATLAB Online and MATLAB R20
 
 ### 1. **Object Detection Tasks Experience**
 
-- **What to say:**
-“Yes, I have worked on object detection in images/video—identifying and localizing objects in various contexts.”
-- **Examples to mention:**
+
     - Annotating bounding boxes in traffic camera feeds for vehicle/person detection
     - Analyzing wireless system coverage using image markers
     - Experimenting with image datasets (VOC, COCO, custom) for academic or industrial projects
@@ -110,7 +108,7 @@ Short answer: Computer Vision Toolbox works in both MATLAB Online and MATLAB R20
 ### 2. **Training Object Detectors**
 
 
-- **Examples you can cite:**
+
     - Using MATLAB’s built-in apps (e.g., Training Image Labeler, Object Detector Training)
     - Using Python frameworks (YOLO, PyTorch, TensorFlow) for custom detectors
     - Augmenting datasets, tuning hyperparameters, evaluating with mAP/IoU
@@ -142,20 +140,10 @@ Short answer: Computer Vision Toolbox works in both MATLAB Online and MATLAB R20
     - You have utilized metrics evaluation scripts (mAP, precision-recall curves), confusion matrices, result visualization overlays, etc.
     - Mention comparing MATLAB results with Python-based analysis for benchmarking.
 
-***
 
-### **How to Prepare:**
 
-- **Review MATLAB CV Toolbox UI and workflows:**
-    - Try out the Object Detector Training app, Image Labeler, or built-in deep learning examples (YOLO, SSD, Faster R-CNN).
-- **Compare workflows:**
-    - Prepare a quick comparison between MATLAB and PyTorch/TensorFlow—mention strengths (ease of annotation/training in MATLAB, flexibility/deployment in PyTorch).
-- **Describe practical projects:**
-    - Think of an end-to-end session (e.g., annotate → train → evaluate → analyze results via MATLAB and PyTorch).
-- **Feedback suggestions:**
-    - Prepare constructive feedback (ease of integration, hardware acceleration, documentation, GUI usability, metrics visualization).
-- **Note challenges:**
-    - Point out any pain points (dataset format support, export/import options, performance bottlenecks, etc.).
+
+
 
 ***
 
