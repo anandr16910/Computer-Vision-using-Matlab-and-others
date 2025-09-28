@@ -86,16 +86,7 @@ Short answer: Computer Vision Toolbox works in both MATLAB Online and MATLAB R20
 
 ---
 
-# yes just now opned matlab 2025b with comp vis toolbox
 
-Great! **MATLAB R2025b with Computer Vision Toolbox** gives you full, local access to:
-
-- **All algorithms and apps** in the toolbox: object detection, tracking, camera calibration, stereo vision, SLAM, point cloud processing, and more.
-- **Add-on support packages:** You can easily install add-ons (e.g., OS-specific camera drivers, third-party interfaces) and custom vision datasets, which may be limited or unavailable in MATLAB Online.
-- **GPU acceleration:** If your system has a CUDA-enabled GPU and Deep Learning Toolbox, you can use hardware acceleration for deep learning models and faster video/image processing.
-- **Device access:** You can connect real cameras (webcam, industrial, etc.), use custom code, and run Simulink vision models with full integration.
-- **Unlimited storage:** Work with large image/video datasets locally without quota or cloud transfer issues.
-- **Code generation:** Build C/C++ code, MEX files, and Simulink models for deployment and integration.
 
 
 ---
@@ -146,8 +137,7 @@ Great! **MATLAB R2025b with Computer Vision Toolbox** gives you full, local acce
 
 ### 4. **Third-party Software for Analyzing Object Detection Results**
 
-- **Answer:** Yes
-- **Specify:**
+- **Tools:**
     - PyTorch tools (such as custom scripts, pycocotools, tensorboard for visualization)
 - **What to emphasize:**
     - You have utilized metrics evaluation scripts (mAP, precision-recall curves), confusion matrices, result visualization overlays, etc.
