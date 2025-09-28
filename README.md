@@ -3,7 +3,7 @@ Computer vision focuses on understanding and interpreting visual content to make
 
 
 ## Image processing and CV:
-
+|----|---|---|
  |Aspect	|Image processing |	Computer vision|
 |Primary goal|	Enhance/transform pixels |	Understand/interpret content |
 Outputs	Processed image or low-level features 	Labels, boxes, masks, tracks, decisions 
