@@ -1,6 +1,5 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# computer vision toolbox matlab online v/s matlab 2025b
+# Computer Vision toolbox matlab online v/s matlab 2025b
 
 Short answer: Computer Vision Toolbox works in both MATLAB Online and MATLAB R2025b desktop, but the desktop version offers broader hardware access, GPU/codec integration, add-on support packages, and Simulink workflows with fewer limitations; MATLAB Online is convenient and supports most functions and apps but has browser/cloud constraints and may lack some hardware-dependent features and large local dataset workflows.[^1_1][^1_2][^1_3][^1_4][^1_5][^1_6]
 
@@ -98,23 +97,11 @@ Great! **MATLAB R2025b with Computer Vision Toolbox** gives you full, local acce
 - **Unlimited storage:** Work with large image/video datasets locally without quota or cloud transfer issues.
 - **Code generation:** Build C/C++ code, MEX files, and Simulink models for deployment and integration.
 
-If you need specific workflows, hardware integration, or advanced computer vision features, this desktop setup gives you maximum flexibility and performance. If you have questions about any feature or example workflow (vision apps, Python/MATLAB integration, deep learning, etc.), just let me know!
 
 ---
 
-# I need some help regards to Computer vision toolbox usability test and feedback session.  Here are some questions asked in survey which I should prepare for 2 hour session scheduled one week later:  1.Have you previously worked on object detection tasks (e.g., identifying and localizing objects in images or video)?  2.  2. Have you ever trained an object detector before (i.e., created a model that can identify and locate objects in images or video) 3.  3. Which tools or frameworks have you used to train object detectors? (Select all that apply) MATLAB Computer Vision Toolbox
 
-MATLAB Deep Learning Toolbox
 
-TensorFlow
-
-PyTorch
-
-YOLO (You Only Look Once)
-
-OpenCV.   Have you used any third-party software for analyzing object detection results?  If you answered yes for the previous question, which third-party software have you used for analysis? (Please specify):  I answered all yes and last one question as pytorch tools.
-
-Here’s a practical guide to help you **prepare for your Computer Vision Toolbox usability test and feedback session**. I’ve broken down suggested talking points, real-world examples, and what to emphasize based on your answers ("Yes" to all, and PyTorch tools for analysis):
 
 ***
 
@@ -183,7 +170,6 @@ Here’s a practical guide to help you **prepare for your Computer Vision Toolbo
 
 ***
 
-If you want, I can help you draft sample answers or talking points tailored for an interview/test session format (short, medium, detailed). Just let me know if you need written sample responses or a checklist!
 
 ---
 
@@ -242,23 +228,7 @@ imshow(detectedImg);
     - Export results to Excel/CSV or as images for use in other frameworks (e.g., PyTorch visualization).
 
 
-#### **E. Integrate with Deep Learning Toolbox**
 
-- Showcase flexibility to import/export models, use custom layers, or leverage pretrained networks.
-
-***
-
-### 2. **How to Present During Usability/Feedback Session**
-
-- **Prepare a Jupyter Notebook or MATLAB Live Script** to show each step interactively (labeling, training, evaluating, analyzing).
-- **Highlight ease of use:**
-    - User-friendly GUIs, automated workflow, integration with other MATLAB toolboxes.
-- **Demonstrate interoperability:**
-    - Export trained model/results for external analysis.
-- **Mention real-world scenarios:**
-    - Industrial automation, smart traffic surveillance, medical imaging, etc.
-
-***
 
 ### 3. **Useful Preparation Steps**
 
@@ -339,55 +309,8 @@ title('Detected Objects');
 
 ***
 
-## 4. **Evaluate Detection Performance**
-
-```matlab
-% Evaluate detector on validation set
-validationData = data.groundTruth(1:10); % use a subset for demo
-
-detectionResults = detect(detector, validationData);
-
-% Compute Average Precision (AP)
-[ap, recall, precision] = evaluateDetectionPrecision(detectionResults, validationData);
-
-% Show precision-recall curve
-figure;
-plot(recall, precision);
-xlabel('Recall');
-ylabel('Precision');
-title(['Average Precision = ', num2str(ap)]);
-```
 
 
-***
-
-## 5. **Export Results for External Analysis**
-
-```matlab
-% Save detection results to CSV for analysis in Python/PyTorch
-resultsTable = table(bboxes, scores, labels);
-writetable(resultsTable, 'detectionResults.csv');
-```
-
-
-***
-
-## **Tips for Usability Demo**
-
-- Open apps using the MATLAB toolstrip ("Apps" tab → "Image Labeler", "Object Detector Training").
-- Highlight built-in plotting/visualization for quick feedback.
-- Show saving/loading workflows for interoperability.
-- Mention integration with other MATLAB/Simulink toolboxes (e.g., Deep Learning Toolbox).
-
-***
-
-Let me know if you want a **Live Script** with these included, or details for other detectors (SSD, R-CNN), or how to use built-in apps for rapid workflow demo!
-
----
-
-# object detection using various methods present in matlab or any other open source like scikit pytorch etc
-
-Here's a quick comparison of **object detection workflows and popular methods in MATLAB (Computer Vision Toolbox/Deep Learning Toolbox)** and **open-source frameworks like PyTorch and scikit-image**:
 
 ***
 
