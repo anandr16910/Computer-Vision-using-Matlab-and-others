@@ -1,8 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# computer vision v/s image processing
-
-Computer vision focuses on understanding and interpreting visual content to make decisions, while image processing focuses on transforming or enhancing pixel data without semantic understanding.[^2][^3][^4]
 
 ### Core idea
 
