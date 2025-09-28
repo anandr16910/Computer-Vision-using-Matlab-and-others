@@ -176,7 +176,7 @@ options = trainingOptions('sgdm', 'MaxEpochs', 20, ...);
 figure; plot(info.TrainingLoss); title('YOLOv4 Training Loss');
 ```
 
-    - Walk through the code structure, showing how the toolbox simplifies dataset loading, training options, and model evaluation.
+    
 
 
 #### **C. Run Detection Inference**
@@ -190,7 +190,7 @@ detectedImg = insertObjectAnnotation(I, 'Rectangle', bboxes, scores);
 imshow(detectedImg);
 ```
 
-    - Show real-time detection, display bounding boxes, and discuss output visualization.
+    
 
 
 #### **D. Analyze Results and Export Data**
@@ -356,19 +356,15 @@ plt.show()
 - **MATLAB**: Great for end-to-end workflows, annotation, pre/post processing, classical + deep learning detectors, easy plotting, model deployment.
 - **Open Source (PyTorch, TensorFlow, OpenCV)**: Flexible, latest models, strong research community, scalable, free GPU support.
 
-**Demonstrate**:
 
-- Training a simple detector (YOLO/SSD/Faster R-CNN)
-- Using classical algorithms for quick, interpretable results
-- Comparing results and workflows between MATLAB and open-source Python tools
 
-Want ready-to-try detailed scripts for any specific method? Let me know your preference!
+
 
 ---
 
-# difference between MATLAB Code Example – YOLOv4 v/s PyTorch Example – YOLOv5 Inference
+# Difference between MATLAB Code Example – YOLOv4 v/s PyTorch Example – YOLOv5 Inference
 
-Short answer: The MATLAB YOLOv4 example is a full training-and-inference workflow using built-in functions and pretrained networks within Computer Vision Toolbox, while the PyTorch YOLOv5 example loads a pretrained model from PyTorch Hub for quick inference without training; they differ in model family/version, setup, code APIs, typical use cases, and deployment paths.[^7_1][^7_2][^7_3][^7_4][^7_5][^7_6][^7_7]
+The MATLAB YOLOv4 example is a full training-and-inference workflow using built-in functions and pretrained networks within Computer Vision Toolbox, while the PyTorch YOLOv5 example loads a pretrained model from PyTorch Hub for quick inference without training; they differ in model family/version, setup, code APIs, typical use cases, and deployment paths.[^7_1][^7_2][^7_3][^7_4][^7_5][^7_6][^7_7]
 
 ### Model and version
 
@@ -467,7 +463,7 @@ Short answer: The MATLAB YOLOv4 example is a full training-and-inference workflo
 
 # List key differences in programming workflow between MATLAB and PyTorch for YOLO models
 
-Short answer: MATLAB provides an integrated, high-level workflow with detector objects, apps, and built-in evaluation/codegen for YOLO (e.g., YOLOv4), whereas PyTorch (Ultralytics YOLOv5) uses Python scripts or Hub calls with modular training/inference and broad export options, emphasizing code-centric flexibility and community tooling.[^8_1][^8_2][^8_3][^8_4][^8_5][^8_6]
+MATLAB provides an integrated, high-level workflow with detector objects, apps, and built-in evaluation/codegen for YOLO (e.g., YOLOv4), whereas PyTorch (Ultralytics YOLOv5) uses Python scripts or Hub calls with modular training/inference and broad export options, emphasizing code-centric flexibility and community tooling.[^8_1][^8_2][^8_3][^8_4][^8_5][^8_6]
 
 ### Model access
 
@@ -574,7 +570,7 @@ Short answer: MATLAB provides an integrated, high-level workflow with detector o
 
 # Describe dataset preparation differences for YOLO in MATLAB and PyTorch
 
-Short answer: MATLAB centers dataset prep around labeled groundTruth objects and datastores created via built-in labeling apps and utilities, while PyTorch/Ultralytics expects files organized in YOLO format with per-image TXT labels and a data.yaml manifest referencing train/val/test splits and class names.[^9_1][^9_2][^9_3][^9_4][^9_5][^9_6]
+MATLAB centers dataset prep around labeled groundTruth objects and datastores created via built-in labeling apps and utilities, while PyTorch/Ultralytics expects files organized in YOLO format with per-image TXT labels and a data.yaml manifest referencing train/val/test splits and class names.[^9_1][^9_2][^9_3][^9_4][^9_5][^9_6]
 
 ### Labeling workflow
 
