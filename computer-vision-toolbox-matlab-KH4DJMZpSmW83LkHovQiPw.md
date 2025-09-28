@@ -109,8 +109,7 @@ Short answer: Computer Vision Toolbox works in both MATLAB Online and MATLAB R20
 
 ### 2. **Training Object Detectors**
 
-- **What to say:**
-“Yes, I have trained object detectors by creating models to identify and locate objects in images/video.”
+
 - **Examples you can cite:**
     - Using MATLAB’s built-in apps (e.g., Training Image Labeler, Object Detector Training)
     - Using Python frameworks (YOLO, PyTorch, TensorFlow) for custom detectors
@@ -127,7 +126,7 @@ Short answer: Computer Vision Toolbox works in both MATLAB Online and MATLAB R20
     - PyTorch
     - YOLO (You Only Look Once)
     - OpenCV
-- **Describe your usage:**
+- **usage:**
     - MATLAB for iterative prototyping, app-based annotation, and rapid evaluation.
     - TensorFlow/PyTorch for deep learning-based detectors and custom architectures.
     - YOLO for real-time applications and open datasets.
@@ -163,22 +162,18 @@ Short answer: Computer Vision Toolbox works in both MATLAB Online and MATLAB R20
 
 ---
 
-# i have access to matlab 2025b with computer vision toolbox so how can i illustrate.?
 
-Here’s how you can **illustrate your experience and workflow using MATLAB R2025b with Computer Vision Toolbox** for the usability session:
-
-***
 
 ### 1. **Live Demonstration/Walkthrough Suggestions**
 
 #### **A. Use Object Detector Training Workflow**
 
-- **Showcase built-in apps:**
+
     - **Image Labeler App**: Open the app, load a sample dataset, annotate images with bounding boxes for training. Explain labeling steps and how MATLAB helps organize annotation tasks.
     - **Object Detector Training App**: Train a simple detector (e.g., YOLO v4, SSD, Faster R-CNN) using labeled data. Show GUI options, parameter selection, and highlight the progress visualization.
 
 
-#### **B. Illustrate Script-Based Training**
+#### **B.Script-Based Training**
 
 - **Script Example:**
 
@@ -220,21 +215,14 @@ imshow(detectedImg);
 
 
 
-### 3. **Useful Preparation Steps**
 
-- Try a rapid end-to-end mini project: label a few images, train a simple detector, and run detection—document each step with screenshots.
-- Keep a MATLAB Live Script or PowerPoint ready with code samples, results, and key observations for sharing.
-- Explore the latest features/new blocks in R2025b toolbox for unique points in feedback.
 
 ***
 
-**Would you like code templates, a ready-to-share live script, or a list of sample datasets for demo?** This can help you quickly illustrate your workflow during the session. Let me know your workflow preference (script vs app vs both), and I can tailor a ready-to-go example for you!
 
 ---
 
-# yes ok go ahead with code templates
 
-Here are **MATLAB code templates** to illustrate key Computer Vision Toolbox workflows for your usability session. You can copy these into MATLAB R2025b Live Scripts or scripts and annotate with comments/screenshots during your demo.
 
 ***
 
@@ -297,12 +285,7 @@ title('Detected Objects');
 ```
 
 
-***
 
-
-
-
-***
 
 ## **MATLAB Object Detection Methods**
 
