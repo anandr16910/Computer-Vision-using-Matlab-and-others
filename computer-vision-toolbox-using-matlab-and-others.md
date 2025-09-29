@@ -13,6 +13,8 @@ Short answer: Computer Vision Toolbox works in both MATLAB Online and MATLAB R20
 
 - MATLAB Online runs in a browser with cloud storage; hardware access is constrained, with specific limitations listed for Online Server (e.g., device I/O, certain Simulink features, USB webcam use limited to Chrome) which can impact live acquisition and some workflow integrations common in vision projects.[^1_4][^1_6]
 - Large video datasets, local codecs, and custom binaries are harder to use online; workflows depending on local GPU drivers, custom MEX builds, and low-level OS/video I/O tend to be better on desktop R2025b.[^1_6][^1_4]
+- Computer Vision Toolbox Model for Mask R-CNN Instance Segmentation ; 
+Computer Vision Toolbox Model for Vision Transformer Network and RTM detector not supported on online version.
 
 
 ### Desktop R2025b advantages
