@@ -47,7 +47,7 @@
 | Typical tools | OpenCV, MATLAB IPT [^5] | PyTorch, TensorFlow, YOLO/ResNet [^5][^2] |
 | Example use | Noise reduction before analysis [^4] | Detect pedestrians/signs in driving [^2] |
 
-### differences between SIFT SURF KAZE and MSER:
+### Differences between SIFT SURF KAZE and MSER:
 
 | Algorithm  |  Detection Accuracy  |  Computational Cost  |  Speed | Robustness to Changes |  Feature Density |  Matching Quality | 
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- |                                    
@@ -55,6 +55,17 @@
 | SURF       |  Moderate            |  Moderate                 |  Fastest among the four  |  Good for scale, rotation, and illumination                       |  Denser than SIFT                              |  Lower than SIFT but efficient  |                           
 | KAZE       |  Moderate-High       |  Highest                  |  Slowest among the four  |  Good for nonlinear structures, less robust for rapid scaling     |  Least dense                                   |  Good but slower for matching  |                            
 | MSER       |  High for regions    |  Variable (region-based)  |  Moderate                |  Strong for textureless/structured scenes, not feature abundance  |  Detects many regions, fewer matchable points  |  Less effective for matching, best for segmentation/regions  |
+
+### Semantic and Instance Segmentation:
+
+Aspect          |  Semantic segmentation                                |  Instance segmentation                                        
+----------------+-------------------------------------------------------+---------------------------------------------------------------
+Primary output  |  Per‑pixel class map and scores                       |  Per‑object masks, labels, scores, boxes                      
+Main APIs       |  semanticseg; evaluateSemanticSegmentation            |  maskrcnn/solov2 + segmentObjects                             
+Typical models  |  U‑Net, DeepLab v3+                                   |  Mask R‑CNN, SOLOv2                                           
+Labeling need   |  Pixel class masks                                    |  Polygon masks per object                                     
+Metrics         |  Global/MeanAccuracy, MeanIoU, WeightedIoU, BF score  |  Per‑instance scores; example workflows for dataset evaluation
+Complexity      |  Lower compute; no instance IDs                       |  Higher compute; instance‑level outputs                       
 
 ### Mental model
 
