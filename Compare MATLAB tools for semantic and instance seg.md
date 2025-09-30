@@ -1,4 +1,5 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
+<img width="378" height="257" alt="image" src="https://github.com/user-attachments/assets/07c4e902-aa32-49d7-84e3-628b3dce752d" />
+
 
 # Compare MATLAB tools for semantic and instance segmentation
 
