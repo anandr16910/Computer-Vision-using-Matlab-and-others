@@ -47,10 +47,20 @@
 | Typical tools | OpenCV, MATLAB IPT [^5] | PyTorch, TensorFlow, YOLO/ResNet [^5][^2] |
 | Example use | Noise reduction before analysis [^4] | Detect pedestrians/signs in driving [^2] |
 
+### differences between SIFT SURF KAZE and MSER:
+
+Algorithm  |  Detection Accuracy  |  Computational Cost       |  Speed                   |  Robustness to Changes                                            |  Feature Density                               |  Matching Quality                                          
+-----------+----------------------+---------------------------+--------------------------+-------------------------------------------------------------------+------------------------------------------------+------------------------------------------------------------
+SIFT       |  High                |  Moderate-High            |  Slower                  |  Excellent for scale, rotation, and moderate for illumination     |  Scattered                                     |  Strong for diverse scenes                                 
+SURF       |  Moderate            |  Moderate                 |  Fastest among the four  |  Good for scale, rotation, and illumination                       |  Denser than SIFT                              |  Lower than SIFT but efficient                             
+KAZE       |  Moderate-High       |  Highest                  |  Slowest among the four  |  Good for nonlinear structures, less robust for rapid scaling     |  Least dense                                   |  Good but slower for matching                              
+MSER       |  High for regions    |  Variable (region-based)  |  Moderate                |  Strong for textureless/structured scenes, not feature abundance  |  Detects many regions, fewer matchable points  |  Less effective for matching, best for segmentation/regions
+
 ### Mental model
 
 - Think of image processing as the signal chain for visual data quality, and computer vision as the perception layer that turns pixels into actionable semantics. They complement each other in modern pipelines.[^5][^4][^2]
 <span style="display:none">[^1][^6][^7]</span>
+
 
 <div align="center">⁂</div>
 
