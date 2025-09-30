@@ -49,12 +49,12 @@
 
 ### differences between SIFT SURF KAZE and MSER:
 
-Algorithm  |  Detection Accuracy  |  Computational Cost       |  Speed                   |  Robustness to Changes                                            |  Feature Density                               |  Matching Quality                                          
------------+----------------------+---------------------------+--------------------------+-------------------------------------------------------------------+------------------------------------------------+------------------------------------------------------------
-SIFT       |  High                |  Moderate-High            |  Slower                  |  Excellent for scale, rotation, and moderate for illumination     |  Scattered                                     |  Strong for diverse scenes                                 
-SURF       |  Moderate            |  Moderate                 |  Fastest among the four  |  Good for scale, rotation, and illumination                       |  Denser than SIFT                              |  Lower than SIFT but efficient                             
-KAZE       |  Moderate-High       |  Highest                  |  Slowest among the four  |  Good for nonlinear structures, less robust for rapid scaling     |  Least dense                                   |  Good but slower for matching                              
-MSER       |  High for regions    |  Variable (region-based)  |  Moderate                |  Strong for textureless/structured scenes, not feature abundance  |  Detects many regions, fewer matchable points  |  Less effective for matching, best for segmentation/regions
+| Algorithm  |  Detection Accuracy  |  Computational Cost  |  Speed   |  Robustness to Changes |  Feature Density |  Matching Quality   |  | :-- | :-- | :-- | :-- | :-- | :-- | :-- |                                    
+
+| SIFT       |  High                |  Moderate-High            |  Slower                  |  Excellent for scale, rotation, and moderate for illumination     |  Scattered                                     |  Strong for diverse scenes|                                 
+| SURF       |  Moderate            |  Moderate                 |  Fastest among the four  |  Good for scale, rotation, and illumination                       |  Denser than SIFT                              |  Lower than SIFT but efficient  |                           
+| KAZE       |  Moderate-High       |  Highest                  |  Slowest among the four  |  Good for nonlinear structures, less robust for rapid scaling     |  Least dense                                   |  Good but slower for matching  |                            
+| MSER       |  High for regions    |  Variable (region-based)  |  Moderate                |  Strong for textureless/structured scenes, not feature abundance  |  Detects many regions, fewer matchable points  |  Less effective for matching, best for segmentation/regions  |
 
 ### Mental model
 
