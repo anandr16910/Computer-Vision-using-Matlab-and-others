@@ -1,4 +1,5 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
+<img width="300" height="169" alt="image" src="https://github.com/user-attachments/assets/e1b0b728-d001-430f-929f-e2481354ac4a" />
+
 
 # some commonly used matlab commands and functions in computer vision and also with regards to object localization and detection.
 
@@ -107,7 +108,7 @@ Here are commonly used MATLAB commands and functions for computer vision, with e
 - Install Computer Vision Toolbox Model add-ons for pretrained YOLOv4 weights before fine-tuning; consider GPU for speed.[^1]
 - Prefer desktop MATLAB R2025b for full GPU, codec, device access, and Simulink/codegen integration during detector work.[^1]
 
-If a focused cheat sheet by category (I/O, features, segmentation, detection, evaluation) or a ready-to-run Live Script is helpful, it can be provided formatted with runnable examples and comments.[^1]
+
 <span style="display:none">[^2]</span>
 
 <div align="center">⁂</div>
