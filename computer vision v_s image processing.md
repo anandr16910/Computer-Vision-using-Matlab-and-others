@@ -58,7 +58,7 @@
 
 ### Semantic and Instance Segmentation:
 
-Aspect          |  Semantic segmentation                                |  Instance segmentation                                        
+| Aspect          |  Semantic segmentation                                |  Instance segmentation  |                                       
 ----------------+-------------------------------------------------------+---------------------------------------------------------------
 Primary output  |  Per‑pixel class map and scores                       |  Per‑object masks, labels, scores, boxes                      
 Main APIs       |  semanticseg; evaluateSemanticSegmentation            |  maskrcnn/solov2 + segmentObjects                             
