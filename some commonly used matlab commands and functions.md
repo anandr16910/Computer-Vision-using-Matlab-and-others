@@ -113,7 +113,7 @@ Here are commonly used MATLAB commands and functions for computer vision, with e
 
 <div align="center">⁂</div>
 
-[^1]: computer-vision-toolbox-matlab-KH4DJMZpSmW83LkHovQiPw.md
+
 
 [^2]: Framework-MethodUsage-Highlights.csv
 
